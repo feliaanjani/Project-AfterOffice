@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>automation-bookstore</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>14ebc3e5-5b63-4516-93b2-af9936ddd0c2</testSuiteGuid>
+   <testCaseLink>
+      <guid>44d3167b-e98c-4a3b-aa39-089f0a22fe96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Task-Bookstore</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>04459d5b-4c0a-4d42-928a-72b3fb403c61</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Task/Bookstore</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>04459d5b-4c0a-4d42-928a-72b3fb403c61</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name_book</value>
+         <variableId>7f880ae8-b761-49cc-947f-150f8f39f955</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>04459d5b-4c0a-4d42-928a-72b3fb403c61</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id_books</value>
+         <variableId>167c81d6-d7fe-4835-88bf-f64e242dedf0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Bookstore</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>cab4fa39-1db6-4db2-adb6-629b640197d4</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>1 1 Test+Automation+in+the+Real+World</data>
+   <data>2 2 Experiences+of+Test+Automation</data>
+   <data>3 3 Agile+Testing</data>
+   <data>4 4 How+Google+Tests+Software</data>
+   <data>5 5 Java+For+Testers</data>
+   <data>6 6 Advanced+Selenium+in+Java</data>
+   <data>7 7 The+Cucumber+for+Java+Book</data>
+   <data>8 8 BDD+in+Action</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>No</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>id_books</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>name_book</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

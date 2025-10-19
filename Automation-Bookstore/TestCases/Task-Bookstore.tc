@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Task-Bookstore</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0b61914-d29a-457c-a579-7301c97187a0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>167c81d6-d7fe-4835-88bf-f64e242dedf0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f880ae8-b761-49cc-947f-150f8f39f955</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>167c81d6-d7fe-4835-88bf-f64e242dedf0</id>
+      <masked>false</masked>
+      <name>id_books</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Automation in the Real World'</defaultValue>
+      <description></description>
+      <id>7f880ae8-b761-49cc-947f-150f8f39f955</id>
+      <masked>false</masked>
+      <name>name_book</name>
+   </variable>
+</TestCaseEntity>

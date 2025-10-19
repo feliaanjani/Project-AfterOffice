@@ -1,0 +1,202 @@
+2025-10-05 15:16:54.071 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Task/automation-bookstore
+2025-10-05 15:16:54.121 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = anjanifeliaa03
+2025-10-05 15:16:54.122 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = webAutomation
+2025-10-05 15:16:54.122 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = feliaanjani - localhost
+2025-10-05 15:16:54.122 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-10-05 15:16:54.122 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-10-05 15:16:54.123 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-10-05 15:16:54.306 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:16:54.306 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Bookstore
+2025-10-05 15:16:54.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_books = 1
+2025-10-05 15:16:54.321 INFO  c.k.katalon.core.main.TestCaseExecutor   - name_book = Test Automation in the Real World
+2025-10-05 15:16:54.378 DEBUG testcase.Task-Bookstore                  - 1: openBrowser("")
+2025-10-05 15:16:54.453 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:16:54.474 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:16:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:16:56.013 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 090fb89445e9733805d764bbf3fadd7b
+2025-10-05 15:16:56.013 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:16:56.013 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:16:56.014 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:16:56.017 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:16:56.038 DEBUG testcase.Task-Bookstore                  - 2: navigateToUrl("https://automationbookstore.dev/")
+2025-10-05 15:16:56.425 DEBUG testcase.Task-Bookstore                  - 3: maximizeWindow()
+2025-10-05 15:16:56.775 DEBUG testcase.Task-Bookstore                  - 4: verifyElementText(findTestObject("Automation Bookstore/title-automation-bookstore"), "Automation Bookstore")
+2025-10-05 15:16:57.055 DEBUG testcase.Task-Bookstore                  - 5: click(findTestObject("Automation Bookstore/search_bar"))
+2025-10-05 15:16:57.349 DEBUG testcase.Task-Bookstore                  - 6: setText(findTestObject("Automation Bookstore/search_bar"), name_book)
+2025-10-05 15:16:57.969 DEBUG testcase.Task-Bookstore                  - 7: verifyTextPresent(name_book, false)
+2025-10-05 15:16:58.207 DEBUG testcase.Task-Bookstore                  - 8: click(findTestObject("Automation Bookstore/X-button"))
+2025-10-05 15:16:58.500 DEBUG testcase.Task-Bookstore                  - 9: verifyTextPresent(name_book, false)
+2025-10-05 15:16:58.735 DEBUG testcase.Task-Bookstore                  - 10: closeBrowser()
+2025-10-05 15:16:58.841 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Bookstore
+2025-10-05 15:16:58.852 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:16:58.852 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Bookstore
+2025-10-05 15:16:58.857 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_books = 2
+2025-10-05 15:16:58.857 INFO  c.k.katalon.core.main.TestCaseExecutor   - name_book = Experiences of Test Automation
+2025-10-05 15:16:58.859 DEBUG testcase.Task-Bookstore                  - 1: openBrowser("")
+2025-10-05 15:16:58.860 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:16:58.861 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:16:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:16:59.610 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a0ab3f21167bd67da398e494699b0494
+2025-10-05 15:16:59.611 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:16:59.611 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:16:59.611 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:16:59.611 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:16:59.620 DEBUG testcase.Task-Bookstore                  - 2: navigateToUrl("https://automationbookstore.dev/")
+2025-10-05 15:17:00.010 DEBUG testcase.Task-Bookstore                  - 3: maximizeWindow()
+2025-10-05 15:17:00.345 DEBUG testcase.Task-Bookstore                  - 4: verifyElementText(findTestObject("Automation Bookstore/title-automation-bookstore"), "Automation Bookstore")
+2025-10-05 15:17:00.598 DEBUG testcase.Task-Bookstore                  - 5: click(findTestObject("Automation Bookstore/search_bar"))
+2025-10-05 15:17:00.895 DEBUG testcase.Task-Bookstore                  - 6: setText(findTestObject("Automation Bookstore/search_bar"), name_book)
+2025-10-05 15:17:01.492 DEBUG testcase.Task-Bookstore                  - 7: verifyTextPresent(name_book, false)
+2025-10-05 15:17:01.728 DEBUG testcase.Task-Bookstore                  - 8: click(findTestObject("Automation Bookstore/X-button"))
+2025-10-05 15:17:02.010 DEBUG testcase.Task-Bookstore                  - 9: verifyTextPresent(name_book, false)
+2025-10-05 15:17:02.241 DEBUG testcase.Task-Bookstore                  - 10: closeBrowser()
+2025-10-05 15:17:02.338 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Bookstore
+2025-10-05 15:17:02.348 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:17:02.348 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Bookstore
+2025-10-05 15:17:02.352 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_books = 3
+2025-10-05 15:17:02.353 INFO  c.k.katalon.core.main.TestCaseExecutor   - name_book = Agile Testing
+2025-10-05 15:17:02.354 DEBUG testcase.Task-Bookstore                  - 1: openBrowser("")
+2025-10-05 15:17:02.355 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:17:02.356 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:17:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:17:03.095 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5d250481167fd279414a0c96cc7e27ee
+2025-10-05 15:17:03.095 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:17:03.095 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:17:03.095 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:17:03.096 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:17:03.104 DEBUG testcase.Task-Bookstore                  - 2: navigateToUrl("https://automationbookstore.dev/")
+2025-10-05 15:17:03.459 DEBUG testcase.Task-Bookstore                  - 3: maximizeWindow()
+2025-10-05 15:17:03.794 DEBUG testcase.Task-Bookstore                  - 4: verifyElementText(findTestObject("Automation Bookstore/title-automation-bookstore"), "Automation Bookstore")
+2025-10-05 15:17:04.047 DEBUG testcase.Task-Bookstore                  - 5: click(findTestObject("Automation Bookstore/search_bar"))
+2025-10-05 15:17:04.341 DEBUG testcase.Task-Bookstore                  - 6: setText(findTestObject("Automation Bookstore/search_bar"), name_book)
+2025-10-05 15:17:04.946 DEBUG testcase.Task-Bookstore                  - 7: verifyTextPresent(name_book, false)
+2025-10-05 15:17:05.177 DEBUG testcase.Task-Bookstore                  - 8: click(findTestObject("Automation Bookstore/X-button"))
+2025-10-05 15:17:05.450 DEBUG testcase.Task-Bookstore                  - 9: verifyTextPresent(name_book, false)
+2025-10-05 15:17:05.686 DEBUG testcase.Task-Bookstore                  - 10: closeBrowser()
+2025-10-05 15:17:05.780 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Bookstore
+2025-10-05 15:17:05.791 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:17:05.791 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Bookstore
+2025-10-05 15:17:05.796 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_books = 4
+2025-10-05 15:17:05.796 INFO  c.k.katalon.core.main.TestCaseExecutor   - name_book = How Google Tests Software
+2025-10-05 15:17:05.797 DEBUG testcase.Task-Bookstore                  - 1: openBrowser("")
+2025-10-05 15:17:05.798 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:17:05.799 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:17:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:17:06.519 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 34de0f525329610c90909acca3fd62de
+2025-10-05 15:17:06.519 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:17:06.519 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:17:06.519 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:17:06.520 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:17:06.527 DEBUG testcase.Task-Bookstore                  - 2: navigateToUrl("https://automationbookstore.dev/")
+2025-10-05 15:17:08.677 DEBUG testcase.Task-Bookstore                  - 3: maximizeWindow()
+2025-10-05 15:17:09.026 DEBUG testcase.Task-Bookstore                  - 4: verifyElementText(findTestObject("Automation Bookstore/title-automation-bookstore"), "Automation Bookstore")
+2025-10-05 15:17:09.272 DEBUG testcase.Task-Bookstore                  - 5: click(findTestObject("Automation Bookstore/search_bar"))
+2025-10-05 15:17:09.566 DEBUG testcase.Task-Bookstore                  - 6: setText(findTestObject("Automation Bookstore/search_bar"), name_book)
+2025-10-05 15:17:10.186 DEBUG testcase.Task-Bookstore                  - 7: verifyTextPresent(name_book, false)
+2025-10-05 15:17:10.425 DEBUG testcase.Task-Bookstore                  - 8: click(findTestObject("Automation Bookstore/X-button"))
+2025-10-05 15:17:10.716 DEBUG testcase.Task-Bookstore                  - 9: verifyTextPresent(name_book, false)
+2025-10-05 15:17:10.947 DEBUG testcase.Task-Bookstore                  - 10: closeBrowser()
+2025-10-05 15:17:11.037 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Bookstore
+2025-10-05 15:17:11.051 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:17:11.051 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Bookstore
+2025-10-05 15:17:11.057 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_books = 5
+2025-10-05 15:17:11.057 INFO  c.k.katalon.core.main.TestCaseExecutor   - name_book = Java For Testers
+2025-10-05 15:17:11.058 DEBUG testcase.Task-Bookstore                  - 1: openBrowser("")
+2025-10-05 15:17:11.060 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:17:11.061 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:17:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:17:11.769 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e0669807c6baa57d4d7a3d31d5953b21
+2025-10-05 15:17:11.770 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:17:11.770 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:17:11.770 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:17:11.770 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:17:11.776 DEBUG testcase.Task-Bookstore                  - 2: navigateToUrl("https://automationbookstore.dev/")
+2025-10-05 15:17:12.510 DEBUG testcase.Task-Bookstore                  - 3: maximizeWindow()
+2025-10-05 15:17:12.841 DEBUG testcase.Task-Bookstore                  - 4: verifyElementText(findTestObject("Automation Bookstore/title-automation-bookstore"), "Automation Bookstore")
+2025-10-05 15:17:13.083 DEBUG testcase.Task-Bookstore                  - 5: click(findTestObject("Automation Bookstore/search_bar"))
+2025-10-05 15:17:13.376 DEBUG testcase.Task-Bookstore                  - 6: setText(findTestObject("Automation Bookstore/search_bar"), name_book)
+2025-10-05 15:17:13.958 DEBUG testcase.Task-Bookstore                  - 7: verifyTextPresent(name_book, false)
+2025-10-05 15:17:14.192 DEBUG testcase.Task-Bookstore                  - 8: click(findTestObject("Automation Bookstore/X-button"))
+2025-10-05 15:17:14.481 DEBUG testcase.Task-Bookstore                  - 9: verifyTextPresent(name_book, false)
+2025-10-05 15:17:14.713 DEBUG testcase.Task-Bookstore                  - 10: closeBrowser()
+2025-10-05 15:17:14.810 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Bookstore
+2025-10-05 15:17:14.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:17:14.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Bookstore
+2025-10-05 15:17:14.826 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_books = 6
+2025-10-05 15:17:14.826 INFO  c.k.katalon.core.main.TestCaseExecutor   - name_book = Advanced Selenium in Java
+2025-10-05 15:17:14.827 DEBUG testcase.Task-Bookstore                  - 1: openBrowser("")
+2025-10-05 15:17:14.828 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:17:14.829 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:17:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:17:15.536 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2cf7abd22f65641feddd4c96b0e7f652
+2025-10-05 15:17:15.537 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:17:15.537 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:17:15.537 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:17:15.537 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:17:15.543 DEBUG testcase.Task-Bookstore                  - 2: navigateToUrl("https://automationbookstore.dev/")
+2025-10-05 15:17:15.983 DEBUG testcase.Task-Bookstore                  - 3: maximizeWindow()
+2025-10-05 15:17:16.313 DEBUG testcase.Task-Bookstore                  - 4: verifyElementText(findTestObject("Automation Bookstore/title-automation-bookstore"), "Automation Bookstore")
+2025-10-05 15:17:16.558 DEBUG testcase.Task-Bookstore                  - 5: click(findTestObject("Automation Bookstore/search_bar"))
+2025-10-05 15:17:16.843 DEBUG testcase.Task-Bookstore                  - 6: setText(findTestObject("Automation Bookstore/search_bar"), name_book)
+2025-10-05 15:17:17.437 DEBUG testcase.Task-Bookstore                  - 7: verifyTextPresent(name_book, false)
+2025-10-05 15:17:17.673 DEBUG testcase.Task-Bookstore                  - 8: click(findTestObject("Automation Bookstore/X-button"))
+2025-10-05 15:17:17.962 DEBUG testcase.Task-Bookstore                  - 9: verifyTextPresent(name_book, false)
+2025-10-05 15:17:18.192 DEBUG testcase.Task-Bookstore                  - 10: closeBrowser()
+2025-10-05 15:17:18.283 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Bookstore
+2025-10-05 15:17:18.291 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:17:18.291 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Bookstore
+2025-10-05 15:17:18.295 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_books = 7
+2025-10-05 15:17:18.296 INFO  c.k.katalon.core.main.TestCaseExecutor   - name_book = The Cucumber for Java Book
+2025-10-05 15:17:18.297 DEBUG testcase.Task-Bookstore                  - 1: openBrowser("")
+2025-10-05 15:17:18.298 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:17:18.298 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:17:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:17:19.025 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d6628bbffa905bccf2df2c1c821f0a66
+2025-10-05 15:17:19.025 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:17:19.026 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:17:19.026 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:17:19.027 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:17:19.032 DEBUG testcase.Task-Bookstore                  - 2: navigateToUrl("https://automationbookstore.dev/")
+2025-10-05 15:17:19.537 DEBUG testcase.Task-Bookstore                  - 3: maximizeWindow()
+2025-10-05 15:17:19.857 DEBUG testcase.Task-Bookstore                  - 4: verifyElementText(findTestObject("Automation Bookstore/title-automation-bookstore"), "Automation Bookstore")
+2025-10-05 15:17:20.100 DEBUG testcase.Task-Bookstore                  - 5: click(findTestObject("Automation Bookstore/search_bar"))
+2025-10-05 15:17:20.392 DEBUG testcase.Task-Bookstore                  - 6: setText(findTestObject("Automation Bookstore/search_bar"), name_book)
+2025-10-05 15:17:20.983 DEBUG testcase.Task-Bookstore                  - 7: verifyTextPresent(name_book, false)
+2025-10-05 15:17:21.218 DEBUG testcase.Task-Bookstore                  - 8: click(findTestObject("Automation Bookstore/X-button"))
+2025-10-05 15:17:21.506 DEBUG testcase.Task-Bookstore                  - 9: verifyTextPresent(name_book, false)
+2025-10-05 15:17:21.737 DEBUG testcase.Task-Bookstore                  - 10: closeBrowser()
+2025-10-05 15:17:21.836 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Bookstore
+2025-10-05 15:17:21.845 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:17:21.845 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Bookstore
+2025-10-05 15:17:21.848 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_books = 8
+2025-10-05 15:17:21.848 INFO  c.k.katalon.core.main.TestCaseExecutor   - name_book = BDD in Action
+2025-10-05 15:17:21.850 DEBUG testcase.Task-Bookstore                  - 1: openBrowser("")
+2025-10-05 15:17:21.851 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:17:21.851 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:17:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:17:22.522 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ea8c76662eb909c121b7c58aea3b19f4
+2025-10-05 15:17:22.522 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:17:22.522 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:17:22.522 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:17:22.523 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:17:22.528 DEBUG testcase.Task-Bookstore                  - 2: navigateToUrl("https://automationbookstore.dev/")
+2025-10-05 15:17:22.941 DEBUG testcase.Task-Bookstore                  - 3: maximizeWindow()
+2025-10-05 15:17:23.274 DEBUG testcase.Task-Bookstore                  - 4: verifyElementText(findTestObject("Automation Bookstore/title-automation-bookstore"), "Automation Bookstore")
+2025-10-05 15:17:23.522 DEBUG testcase.Task-Bookstore                  - 5: click(findTestObject("Automation Bookstore/search_bar"))
+2025-10-05 15:17:23.803 DEBUG testcase.Task-Bookstore                  - 6: setText(findTestObject("Automation Bookstore/search_bar"), name_book)
+2025-10-05 15:17:24.380 DEBUG testcase.Task-Bookstore                  - 7: verifyTextPresent(name_book, false)
+2025-10-05 15:17:24.618 DEBUG testcase.Task-Bookstore                  - 8: click(findTestObject("Automation Bookstore/X-button"))
+2025-10-05 15:17:24.906 DEBUG testcase.Task-Bookstore                  - 9: verifyTextPresent(name_book, false)
+2025-10-05 15:17:25.140 DEBUG testcase.Task-Bookstore                  - 10: closeBrowser()
+2025-10-05 15:17:25.233 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Bookstore
+2025-10-05 15:17:25.249 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-05 15:17:25.249 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Task/automation-bookstore
+2025-10-05 15:17:25.249 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
