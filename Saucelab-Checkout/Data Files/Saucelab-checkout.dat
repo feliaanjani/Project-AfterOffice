@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Saucelab-checkout</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9aa44ed6-6e73-4f57-898b-2b6286830856</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>1 1 Sauce+Labs+Backpack</data>
+   <data>2 2 Sauce+Labs+Bike+Light</data>
+   <data>3 3 Sauce+Labs+Bolt+T-Shirt</data>
+   <data>4 4 Sauce+Labs+Fleece+Jacket</data>
+   <data>5 5 Sauce+Labs+Onesie</data>
+   <data>6 6 Test.allTheThings%28%29+T-Shirt+%28Red%29</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>No</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>id_product</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>productName</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

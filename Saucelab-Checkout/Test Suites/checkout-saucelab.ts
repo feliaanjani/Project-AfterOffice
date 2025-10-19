@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>checkout-saucelab</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>13898523-b3cd-408e-bafd-1b8c55012578</testSuiteGuid>
+   <testCaseLink>
+      <guid>a217228b-d7a1-4dba-8885-a45a386541b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Task-Saucelab-Checkout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>74b763a3-a7e9-43a7-bf73-87cf405bafdb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Task/Saucelab-checkout</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>74b763a3-a7e9-43a7-bf73-87cf405bafdb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id_product</value>
+         <variableId>ddcedd3b-8ec7-4501-ab00-8a5bd4958826</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>74b763a3-a7e9-43a7-bf73-87cf405bafdb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>productName</value>
+         <variableId>69a4e803-ff38-46ad-aeeb-e6534d773504</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="checkout-saucelab" time="79.164" tests="6" failures="0" errors="0">
+   <testsuite name="checkout-saucelab" tests="6" failures="0" errors="0" time="79.164" skipped="0" timestamp="2025-10-05T08:19:48.796Z" hostname="feliaanjani - localhost" id="Test Suites/Task/checkout-saucelab">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/feliaanjani/Katalon Studio/webAutomation/Reports/20251005_151947/Task/checkout-saucelab/20251005_151947"/>
+         <property name="logFiles" value="/Users/feliaanjani/Katalon Studio/webAutomation/Reports/20251005_151947/Task/checkout-saucelab/20251005_151947/execution0.log, /Users/feliaanjani/Katalon Studio/webAutomation/Reports/20251005_151947/Task/checkout-saucelab/20251005_151947/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="feliaanjani - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Safari 18.6"/>
+         <property name="userFullName" value="anjanifeliaa03"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="03FB25B7-27F6-4530-A020-FD48FB739835"/>
+         <property name="projectName" value="webAutomation"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Task-Saucelab-Checkout" time="16.066" classname="Test Cases/Task-Saucelab-Checkout" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"id_product":"1","productName":"Sauce Labs Backpack"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:19:48 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Checkout: Test Cases/Task-Saucelab-Checkout
+
+05-10-2025T15:19:49 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:19:49 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:19:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:19:49 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+05-10-2025T15:19:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:19:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:19:51 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:19:52 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:19:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:19:52 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:19:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:19:52 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:19:53 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:19:53 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:19:53 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:19:53 - [TEST_STEP][PASSED] - verifyTextPresent(productName, false): Text 'Sauce Labs Backpack' is present on page 
+
+05-10-2025T15:19:53 - [MESSAGE][PASSED] - Text 'Sauce Labs Backpack' is present on page 
+
+05-10-2025T15:19:53 - [TEST_STEP][PASSED] - productName = "sauce-labs-backpack": null
+
+05-10-2025T15:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName])): Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/shopping_cart")): Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/checkout_btn")): Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Your Information", false): Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia"): Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani"): Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812"): Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10): Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/continue-btn")): Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Overview", false): Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/finish_btn")): Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:19:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:20:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Checkout" time="12.63" classname="Test Cases/Task-Saucelab-Checkout" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"id_product":"2","productName":"Sauce Labs Bike Light"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:20:05 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Checkout: Test Cases/Task-Saucelab-Checkout
+
+05-10-2025T15:20:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:20:05 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:20:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:20:05 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+05-10-2025T15:20:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:20:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:20:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:06 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:20:06 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:20:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:06 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:06 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:06 - [TEST_STEP][PASSED] - verifyTextPresent(productName, false): Text 'Sauce Labs Bike Light' is present on page 
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Text 'Sauce Labs Bike Light' is present on page 
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - productName = "sauce-labs-backpack": null
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName])): Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/shopping_cart")): Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/checkout_btn")): Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Your Information", false): Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia"): Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani"): Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812"): Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10): Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/continue-btn")): Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Overview", false): Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/finish_btn")): Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:20:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Checkout" time="12.508" classname="Test Cases/Task-Saucelab-Checkout" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"id_product":"3","productName":"Sauce Labs Bolt T-Shirt"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:20:17 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Checkout: Test Cases/Task-Saucelab-Checkout
+
+05-10-2025T15:20:17 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:20:17 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:20:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:20:17 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+05-10-2025T15:20:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:20:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:20:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - verifyTextPresent(productName, false): Text 'Sauce Labs Bolt T-Shirt' is present on page 
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Text 'Sauce Labs Bolt T-Shirt' is present on page 
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - productName = "sauce-labs-backpack": null
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName])): Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/shopping_cart")): Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/checkout_btn")): Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Your Information", false): Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia"): Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani"): Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812"): Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10): Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/continue-btn")): Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Overview", false): Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/finish_btn")): Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:20:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Checkout" time="12.402" classname="Test Cases/Task-Saucelab-Checkout" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"id_product":"4","productName":"Sauce Labs Fleece Jacket"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:20:30 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Checkout: Test Cases/Task-Saucelab-Checkout
+
+05-10-2025T15:20:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:20:30 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:20:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:20:30 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+05-10-2025T15:20:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - verifyTextPresent(productName, false): Text 'Sauce Labs Fleece Jacket' is present on page 
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Text 'Sauce Labs Fleece Jacket' is present on page 
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - productName = "sauce-labs-backpack": null
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName])): Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/shopping_cart")): Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/checkout_btn")): Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Your Information", false): Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia"): Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani"): Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812"): Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10): Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/continue-btn")): Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Overview", false): Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/finish_btn")): Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:20:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Checkout" time="12.819" classname="Test Cases/Task-Saucelab-Checkout" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"id_product":"5","productName":"Sauce Labs Onesie"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:20:42 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Checkout: Test Cases/Task-Saucelab-Checkout
+
+05-10-2025T15:20:42 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:20:42 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:20:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:20:42 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+05-10-2025T15:20:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:20:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:20:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - verifyTextPresent(productName, false): Text 'Sauce Labs Onesie' is present on page 
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Text 'Sauce Labs Onesie' is present on page 
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - productName = "sauce-labs-backpack": null
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName])): Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/shopping_cart")): Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/checkout_btn")): Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Your Information", false): Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:44 - [MESSAGE][PASSED] - Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia"): Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:45 - [MESSAGE][PASSED] - Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:45 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani"): Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:45 - [MESSAGE][PASSED] - Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:45 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812"): Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:45 - [MESSAGE][PASSED] - Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10): Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:45 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:45 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/continue-btn")): Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:45 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Overview", false): Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:45 - [MESSAGE][PASSED] - Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:45 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/finish_btn")): Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:20:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Checkout" time="12.427" classname="Test Cases/Task-Saucelab-Checkout" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"id_product":"6","productName":"Test.allTheThings() T-Shirt (Red)"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:20:55 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Checkout: Test Cases/Task-Saucelab-Checkout
+
+05-10-2025T15:20:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:20:55 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:20:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:20:55 - [MESSAGE][INFO] - Starting 'Safari' driver
+
+05-10-2025T15:20:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:20:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:20:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:56 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:20:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:20:56 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:20:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - verifyTextPresent(productName, false): Text 'Test.allTheThings() T-Shirt (Red)' is present on page 
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Text 'Test.allTheThings() T-Shirt (Red)' is present on page 
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - productName = "sauce-labs-backpack": null
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName])): Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/Button_AddToCart_ByProduct' is clicked on
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/shopping_cart")): Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/shopping_cart' is clicked on
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/checkout_btn")): Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/checkout_btn' is clicked on
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Your Information", false): Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Text 'Checkout: Your Information' is present on page 
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia"): Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Text 'Felia' is set on object 'Object Repository/Saucedemo-Shop/input-fullname'
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani"): Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Text 'Anjani' is set on object 'Object Repository/Saucedemo-Shop/input-lastname'
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812"): Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Text '17812' is set on object 'Object Repository/Saucedemo-Shop/input-zipcode'
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10): Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/continue-btn' is present
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/continue-btn")): Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/continue-btn' is clicked on
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - verifyTextPresent("Checkout: Overview", false): Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Text 'Checkout: Overview' is present on page 
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/finish_btn")): Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/finish_btn' is clicked on
+
+05-10-2025T15:20:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:21:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-10-2025T15:19:48 - [TEST_SUITE][PASSED] - checkout-saucelab: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

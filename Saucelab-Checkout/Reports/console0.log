@@ -1,0 +1,208 @@
+2025-10-05 15:19:48.760 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Task/checkout-saucelab
+2025-10-05 15:19:48.804 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = anjanifeliaa03
+2025-10-05 15:19:48.805 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = webAutomation
+2025-10-05 15:19:48.805 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = feliaanjani - localhost
+2025-10-05 15:19:48.805 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-10-05 15:19:48.805 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-10-05 15:19:48.806 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-10-05 15:19:48.982 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:19:48.983 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:19:49.004 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_product = 1
+2025-10-05 15:19:49.005 INFO  c.k.katalon.core.main.TestCaseExecutor   - productName = Sauce Labs Backpack
+2025-10-05 15:19:49.064 DEBUG testcase.Task-Saucelab-Checkout          - 1: openBrowser("")
+2025-10-05 15:19:49.139 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Safari' driver
+2025-10-05 15:19:49.153 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-05 15:19:51.213 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 73DB5502-C9E7-45E9-82AC-203F4E0EEBE6
+2025-10-05 15:19:51.215 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Safari 18.6
+2025-10-05 15:19:51.216 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:19:51.216 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:19:51.225 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:19:51.286 DEBUG testcase.Task-Saucelab-Checkout          - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:19:52.299 DEBUG testcase.Task-Saucelab-Checkout          - 3: maximizeWindow()
+2025-10-05 15:19:52.427 DEBUG testcase.Task-Saucelab-Checkout          - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10)
+2025-10-05 15:19:52.811 DEBUG testcase.Task-Saucelab-Checkout          - 5: setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user")
+2025-10-05 15:19:53.137 DEBUG testcase.Task-Saucelab-Checkout          - 6: setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce")
+2025-10-05 15:19:53.520 DEBUG testcase.Task-Saucelab-Checkout          - 7: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:19:53.698 DEBUG testcase.Task-Saucelab-Checkout          - 8: verifyTextPresent(productName, false)
+2025-10-05 15:19:53.755 DEBUG testcase.Task-Saucelab-Checkout          - 9: productName = "sauce-labs-backpack"
+2025-10-05 15:19:53.757 DEBUG testcase.Task-Saucelab-Checkout          - 10: click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName]))
+2025-10-05 15:19:54.031 DEBUG testcase.Task-Saucelab-Checkout          - 11: click(findTestObject("Saucedemo-Shop/shopping_cart"))
+2025-10-05 15:19:54.152 DEBUG testcase.Task-Saucelab-Checkout          - 12: click(findTestObject("Saucedemo-Shop/checkout_btn"))
+2025-10-05 15:19:54.222 DEBUG testcase.Task-Saucelab-Checkout          - 13: verifyTextPresent("Checkout: Your Information", false)
+2025-10-05 15:19:54.237 DEBUG testcase.Task-Saucelab-Checkout          - 14: setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia")
+2025-10-05 15:19:54.326 DEBUG testcase.Task-Saucelab-Checkout          - 15: setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani")
+2025-10-05 15:19:54.471 DEBUG testcase.Task-Saucelab-Checkout          - 16: setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812")
+2025-10-05 15:19:54.568 DEBUG testcase.Task-Saucelab-Checkout          - 17: verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10)
+2025-10-05 15:19:54.585 DEBUG testcase.Task-Saucelab-Checkout          - 18: click(findTestObject("Saucedemo-Shop/continue-btn"))
+2025-10-05 15:19:54.667 DEBUG testcase.Task-Saucelab-Checkout          - 19: verifyTextPresent("Checkout: Overview", false)
+2025-10-05 15:19:54.689 DEBUG testcase.Task-Saucelab-Checkout          - 20: click(findTestObject("Saucedemo-Shop/finish_btn"))
+2025-10-05 15:19:54.781 DEBUG testcase.Task-Saucelab-Checkout          - 21: closeBrowser()
+2025-10-05 15:20:05.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:05.077 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:20:05.077 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:05.088 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_product = 2
+2025-10-05 15:20:05.088 INFO  c.k.katalon.core.main.TestCaseExecutor   - productName = Sauce Labs Bike Light
+2025-10-05 15:20:05.091 DEBUG testcase.Task-Saucelab-Checkout          - 1: openBrowser("")
+2025-10-05 15:20:05.093 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Safari' driver
+2025-10-05 15:20:05.094 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-05 15:20:05.970 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 51B34278-BC64-4B44-84DD-DB2AA04B24B4
+2025-10-05 15:20:05.970 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Safari 18.6
+2025-10-05 15:20:05.970 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:20:05.971 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:20:05.971 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:20:05.985 DEBUG testcase.Task-Saucelab-Checkout          - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:20:06.539 DEBUG testcase.Task-Saucelab-Checkout          - 3: maximizeWindow()
+2025-10-05 15:20:06.589 DEBUG testcase.Task-Saucelab-Checkout          - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10)
+2025-10-05 15:20:06.621 DEBUG testcase.Task-Saucelab-Checkout          - 5: setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user")
+2025-10-05 15:20:06.750 DEBUG testcase.Task-Saucelab-Checkout          - 6: setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce")
+2025-10-05 15:20:06.866 DEBUG testcase.Task-Saucelab-Checkout          - 7: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:20:06.965 DEBUG testcase.Task-Saucelab-Checkout          - 8: verifyTextPresent(productName, false)
+2025-10-05 15:20:07.001 DEBUG testcase.Task-Saucelab-Checkout          - 9: productName = "sauce-labs-backpack"
+2025-10-05 15:20:07.001 DEBUG testcase.Task-Saucelab-Checkout          - 10: click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName]))
+2025-10-05 15:20:07.038 DEBUG testcase.Task-Saucelab-Checkout          - 11: click(findTestObject("Saucedemo-Shop/shopping_cart"))
+2025-10-05 15:20:07.083 DEBUG testcase.Task-Saucelab-Checkout          - 12: click(findTestObject("Saucedemo-Shop/checkout_btn"))
+2025-10-05 15:20:07.126 DEBUG testcase.Task-Saucelab-Checkout          - 13: verifyTextPresent("Checkout: Your Information", false)
+2025-10-05 15:20:07.138 DEBUG testcase.Task-Saucelab-Checkout          - 14: setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia")
+2025-10-05 15:20:07.205 DEBUG testcase.Task-Saucelab-Checkout          - 15: setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani")
+2025-10-05 15:20:07.276 DEBUG testcase.Task-Saucelab-Checkout          - 16: setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812")
+2025-10-05 15:20:07.347 DEBUG testcase.Task-Saucelab-Checkout          - 17: verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10)
+2025-10-05 15:20:07.358 DEBUG testcase.Task-Saucelab-Checkout          - 18: click(findTestObject("Saucedemo-Shop/continue-btn"))
+2025-10-05 15:20:07.417 DEBUG testcase.Task-Saucelab-Checkout          - 19: verifyTextPresent("Checkout: Overview", false)
+2025-10-05 15:20:07.430 DEBUG testcase.Task-Saucelab-Checkout          - 20: click(findTestObject("Saucedemo-Shop/finish_btn"))
+2025-10-05 15:20:07.472 DEBUG testcase.Task-Saucelab-Checkout          - 21: closeBrowser()
+2025-10-05 15:20:17.707 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:17.725 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:20:17.725 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:17.739 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_product = 3
+2025-10-05 15:20:17.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - productName = Sauce Labs Bolt T-Shirt
+2025-10-05 15:20:17.742 DEBUG testcase.Task-Saucelab-Checkout          - 1: openBrowser("")
+2025-10-05 15:20:17.745 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Safari' driver
+2025-10-05 15:20:17.745 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-05 15:20:18.524 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = FE4FCBC2-BB79-4B33-9D64-D3C3AB908D98
+2025-10-05 15:20:18.524 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Safari 18.6
+2025-10-05 15:20:18.524 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:20:18.524 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:20:18.524 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:20:18.535 DEBUG testcase.Task-Saucelab-Checkout          - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:20:19.110 DEBUG testcase.Task-Saucelab-Checkout          - 3: maximizeWindow()
+2025-10-05 15:20:19.163 DEBUG testcase.Task-Saucelab-Checkout          - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10)
+2025-10-05 15:20:19.191 DEBUG testcase.Task-Saucelab-Checkout          - 5: setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user")
+2025-10-05 15:20:19.291 DEBUG testcase.Task-Saucelab-Checkout          - 6: setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce")
+2025-10-05 15:20:19.388 DEBUG testcase.Task-Saucelab-Checkout          - 7: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:20:19.458 DEBUG testcase.Task-Saucelab-Checkout          - 8: verifyTextPresent(productName, false)
+2025-10-05 15:20:19.490 DEBUG testcase.Task-Saucelab-Checkout          - 9: productName = "sauce-labs-backpack"
+2025-10-05 15:20:19.490 DEBUG testcase.Task-Saucelab-Checkout          - 10: click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName]))
+2025-10-05 15:20:19.520 DEBUG testcase.Task-Saucelab-Checkout          - 11: click(findTestObject("Saucedemo-Shop/shopping_cart"))
+2025-10-05 15:20:19.567 DEBUG testcase.Task-Saucelab-Checkout          - 12: click(findTestObject("Saucedemo-Shop/checkout_btn"))
+2025-10-05 15:20:19.614 DEBUG testcase.Task-Saucelab-Checkout          - 13: verifyTextPresent("Checkout: Your Information", false)
+2025-10-05 15:20:19.624 DEBUG testcase.Task-Saucelab-Checkout          - 14: setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia")
+2025-10-05 15:20:19.684 DEBUG testcase.Task-Saucelab-Checkout          - 15: setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani")
+2025-10-05 15:20:19.765 DEBUG testcase.Task-Saucelab-Checkout          - 16: setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812")
+2025-10-05 15:20:19.840 DEBUG testcase.Task-Saucelab-Checkout          - 17: verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10)
+2025-10-05 15:20:19.854 DEBUG testcase.Task-Saucelab-Checkout          - 18: click(findTestObject("Saucedemo-Shop/continue-btn"))
+2025-10-05 15:20:19.919 DEBUG testcase.Task-Saucelab-Checkout          - 19: verifyTextPresent("Checkout: Overview", false)
+2025-10-05 15:20:19.939 DEBUG testcase.Task-Saucelab-Checkout          - 20: click(findTestObject("Saucedemo-Shop/finish_btn"))
+2025-10-05 15:20:19.999 DEBUG testcase.Task-Saucelab-Checkout          - 21: closeBrowser()
+2025-10-05 15:20:30.234 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:30.261 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:20:30.261 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:30.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_product = 4
+2025-10-05 15:20:30.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - productName = Sauce Labs Fleece Jacket
+2025-10-05 15:20:30.273 DEBUG testcase.Task-Saucelab-Checkout          - 1: openBrowser("")
+2025-10-05 15:20:30.275 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Safari' driver
+2025-10-05 15:20:30.275 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-05 15:20:31.059 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 18C77BF4-CE58-4249-8FD5-7A9F59390D2A
+2025-10-05 15:20:31.060 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Safari 18.6
+2025-10-05 15:20:31.060 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:20:31.060 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:20:31.060 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:20:31.070 DEBUG testcase.Task-Saucelab-Checkout          - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:20:31.581 DEBUG testcase.Task-Saucelab-Checkout          - 3: maximizeWindow()
+2025-10-05 15:20:31.620 DEBUG testcase.Task-Saucelab-Checkout          - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10)
+2025-10-05 15:20:31.644 DEBUG testcase.Task-Saucelab-Checkout          - 5: setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user")
+2025-10-05 15:20:31.749 DEBUG testcase.Task-Saucelab-Checkout          - 6: setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce")
+2025-10-05 15:20:31.835 DEBUG testcase.Task-Saucelab-Checkout          - 7: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:20:31.935 DEBUG testcase.Task-Saucelab-Checkout          - 8: verifyTextPresent(productName, false)
+2025-10-05 15:20:31.966 DEBUG testcase.Task-Saucelab-Checkout          - 9: productName = "sauce-labs-backpack"
+2025-10-05 15:20:31.966 DEBUG testcase.Task-Saucelab-Checkout          - 10: click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName]))
+2025-10-05 15:20:31.996 DEBUG testcase.Task-Saucelab-Checkout          - 11: click(findTestObject("Saucedemo-Shop/shopping_cart"))
+2025-10-05 15:20:32.041 DEBUG testcase.Task-Saucelab-Checkout          - 12: click(findTestObject("Saucedemo-Shop/checkout_btn"))
+2025-10-05 15:20:32.087 DEBUG testcase.Task-Saucelab-Checkout          - 13: verifyTextPresent("Checkout: Your Information", false)
+2025-10-05 15:20:32.101 DEBUG testcase.Task-Saucelab-Checkout          - 14: setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia")
+2025-10-05 15:20:32.154 DEBUG testcase.Task-Saucelab-Checkout          - 15: setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani")
+2025-10-05 15:20:32.222 DEBUG testcase.Task-Saucelab-Checkout          - 16: setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812")
+2025-10-05 15:20:32.296 DEBUG testcase.Task-Saucelab-Checkout          - 17: verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10)
+2025-10-05 15:20:32.306 DEBUG testcase.Task-Saucelab-Checkout          - 18: click(findTestObject("Saucedemo-Shop/continue-btn"))
+2025-10-05 15:20:32.372 DEBUG testcase.Task-Saucelab-Checkout          - 19: verifyTextPresent("Checkout: Overview", false)
+2025-10-05 15:20:32.384 DEBUG testcase.Task-Saucelab-Checkout          - 20: click(findTestObject("Saucedemo-Shop/finish_btn"))
+2025-10-05 15:20:32.426 DEBUG testcase.Task-Saucelab-Checkout          - 21: closeBrowser()
+2025-10-05 15:20:42.663 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:42.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:20:42.687 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:42.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_product = 5
+2025-10-05 15:20:42.695 INFO  c.k.katalon.core.main.TestCaseExecutor   - productName = Sauce Labs Onesie
+2025-10-05 15:20:42.697 DEBUG testcase.Task-Saucelab-Checkout          - 1: openBrowser("")
+2025-10-05 15:20:42.700 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Safari' driver
+2025-10-05 15:20:42.701 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-05 15:20:43.443 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 59A7F427-215B-4457-8237-9FDC99AC170D
+2025-10-05 15:20:43.444 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Safari 18.6
+2025-10-05 15:20:43.444 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:20:43.444 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:20:43.444 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:20:43.452 DEBUG testcase.Task-Saucelab-Checkout          - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:20:44.456 DEBUG testcase.Task-Saucelab-Checkout          - 3: maximizeWindow()
+2025-10-05 15:20:44.496 DEBUG testcase.Task-Saucelab-Checkout          - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10)
+2025-10-05 15:20:44.520 DEBUG testcase.Task-Saucelab-Checkout          - 5: setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user")
+2025-10-05 15:20:44.615 DEBUG testcase.Task-Saucelab-Checkout          - 6: setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce")
+2025-10-05 15:20:44.696 DEBUG testcase.Task-Saucelab-Checkout          - 7: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:20:44.799 DEBUG testcase.Task-Saucelab-Checkout          - 8: verifyTextPresent(productName, false)
+2025-10-05 15:20:44.826 DEBUG testcase.Task-Saucelab-Checkout          - 9: productName = "sauce-labs-backpack"
+2025-10-05 15:20:44.826 DEBUG testcase.Task-Saucelab-Checkout          - 10: click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName]))
+2025-10-05 15:20:44.857 DEBUG testcase.Task-Saucelab-Checkout          - 11: click(findTestObject("Saucedemo-Shop/shopping_cart"))
+2025-10-05 15:20:44.897 DEBUG testcase.Task-Saucelab-Checkout          - 12: click(findTestObject("Saucedemo-Shop/checkout_btn"))
+2025-10-05 15:20:44.947 DEBUG testcase.Task-Saucelab-Checkout          - 13: verifyTextPresent("Checkout: Your Information", false)
+2025-10-05 15:20:44.960 DEBUG testcase.Task-Saucelab-Checkout          - 14: setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia")
+2025-10-05 15:20:45.015 DEBUG testcase.Task-Saucelab-Checkout          - 15: setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani")
+2025-10-05 15:20:45.080 DEBUG testcase.Task-Saucelab-Checkout          - 16: setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812")
+2025-10-05 15:20:45.139 DEBUG testcase.Task-Saucelab-Checkout          - 17: verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10)
+2025-10-05 15:20:45.148 DEBUG testcase.Task-Saucelab-Checkout          - 18: click(findTestObject("Saucedemo-Shop/continue-btn"))
+2025-10-05 15:20:45.212 DEBUG testcase.Task-Saucelab-Checkout          - 19: verifyTextPresent("Checkout: Overview", false)
+2025-10-05 15:20:45.222 DEBUG testcase.Task-Saucelab-Checkout          - 20: click(findTestObject("Saucedemo-Shop/finish_btn"))
+2025-10-05 15:20:45.272 DEBUG testcase.Task-Saucelab-Checkout          - 21: closeBrowser()
+2025-10-05 15:20:55.506 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:55.532 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:20:55.533 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:20:55.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - id_product = 6
+2025-10-05 15:20:55.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - productName = Test.allTheThings() T-Shirt (Red)
+2025-10-05 15:20:55.544 DEBUG testcase.Task-Saucelab-Checkout          - 1: openBrowser("")
+2025-10-05 15:20:55.545 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Safari' driver
+2025-10-05 15:20:55.546 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-10-05 15:20:56.310 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 03FB25B7-27F6-4530-A020-FD48FB739835
+2025-10-05 15:20:56.311 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Safari 18.6
+2025-10-05 15:20:56.312 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:20:56.312 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:20:56.312 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:20:56.321 DEBUG testcase.Task-Saucelab-Checkout          - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:20:56.846 DEBUG testcase.Task-Saucelab-Checkout          - 3: maximizeWindow()
+2025-10-05 15:20:56.895 DEBUG testcase.Task-Saucelab-Checkout          - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 10)
+2025-10-05 15:20:56.930 DEBUG testcase.Task-Saucelab-Checkout          - 5: setText(findTestObject("Saucedemo-Shop/username_field"), "standard_user")
+2025-10-05 15:20:57.035 DEBUG testcase.Task-Saucelab-Checkout          - 6: setText(findTestObject("Saucedemo-Shop/password_field"), "secret_sauce")
+2025-10-05 15:20:57.136 DEBUG testcase.Task-Saucelab-Checkout          - 7: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:20:57.230 DEBUG testcase.Task-Saucelab-Checkout          - 8: verifyTextPresent(productName, false)
+2025-10-05 15:20:57.266 DEBUG testcase.Task-Saucelab-Checkout          - 9: productName = "sauce-labs-backpack"
+2025-10-05 15:20:57.266 DEBUG testcase.Task-Saucelab-Checkout          - 10: click(findTestObject("Saucedemo-Shop/Button_AddToCart_ByProduct", ["productName":productName]))
+2025-10-05 15:20:57.297 DEBUG testcase.Task-Saucelab-Checkout          - 11: click(findTestObject("Saucedemo-Shop/shopping_cart"))
+2025-10-05 15:20:57.344 DEBUG testcase.Task-Saucelab-Checkout          - 12: click(findTestObject("Saucedemo-Shop/checkout_btn"))
+2025-10-05 15:20:57.383 DEBUG testcase.Task-Saucelab-Checkout          - 13: verifyTextPresent("Checkout: Your Information", false)
+2025-10-05 15:20:57.393 DEBUG testcase.Task-Saucelab-Checkout          - 14: setText(findTestObject("Saucedemo-Shop/input-fullname"), "Felia")
+2025-10-05 15:20:57.446 DEBUG testcase.Task-Saucelab-Checkout          - 15: setText(findTestObject("Saucedemo-Shop/input-lastname"), "Anjani")
+2025-10-05 15:20:57.520 DEBUG testcase.Task-Saucelab-Checkout          - 16: setText(findTestObject("Saucedemo-Shop/input-zipcode"), "17812")
+2025-10-05 15:20:57.581 DEBUG testcase.Task-Saucelab-Checkout          - 17: verifyElementPresent(findTestObject("Saucedemo-Shop/continue-btn"), 10)
+2025-10-05 15:20:57.589 DEBUG testcase.Task-Saucelab-Checkout          - 18: click(findTestObject("Saucedemo-Shop/continue-btn"))
+2025-10-05 15:20:57.671 DEBUG testcase.Task-Saucelab-Checkout          - 19: verifyTextPresent("Checkout: Overview", false)
+2025-10-05 15:20:57.682 DEBUG testcase.Task-Saucelab-Checkout          - 20: click(findTestObject("Saucedemo-Shop/finish_btn"))
+2025-10-05 15:20:57.722 DEBUG testcase.Task-Saucelab-Checkout          - 21: closeBrowser()
+2025-10-05 15:21:07.959 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Checkout
+2025-10-05 15:21:07.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-05 15:21:07.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Task/checkout-saucelab
+2025-10-05 15:21:07.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
