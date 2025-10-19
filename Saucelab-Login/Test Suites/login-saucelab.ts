@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>login-saucelab</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a8223f2e-3983-4203-ac09-20b82b14120b</testSuiteGuid>
+   <testCaseLink>
+      <guid>510ab42d-cb4f-4818-943b-9bfe502913d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Task-Saucelab-Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ae85d0a2-4aaa-48dd-af05-80b3bbecb383</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Task/saucelab-login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ae85d0a2-4aaa-48dd-af05-80b3bbecb383</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testType</value>
+         <variableId>b9c63475-0a58-49dc-aeb2-6a2d3c5cd1cb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ae85d0a2-4aaa-48dd-af05-80b3bbecb383</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>11e72b27-c991-4872-b9b8-eeddcc8b6b4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ae85d0a2-4aaa-48dd-af05-80b3bbecb383</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>68090e79-bc82-469d-9e09-aa7ce18a700c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ae85d0a2-4aaa-48dd-af05-80b3bbecb383</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>573b4a93-7ce4-48aa-ba7a-b26c275c0fbc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

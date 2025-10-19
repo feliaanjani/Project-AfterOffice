@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login-saucelab,Chrome 140.0.7339.215,,,05-10-2025 15:17:55,05-10-2025 15:18:43,47.966s,PASSED
+,,,,,,,
+Test Cases/Task-Saucelab-Login,Chrome 140.0.7339.215,,,05-10-2025 15:17:55,05-10-2025 15:18:02,6.582s,PASSED
+"DATA BINDING - {""password"":""secret_sauce"",""expected"":"""",""testType"":""P"",""username"":""visual_user""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 140.0.7339.215,,,05-10-2025 15:17:55,05-10-2025 15:17:56,0.028s,PASSED
+"openBrowser("""")",Chrome 140.0.7339.215,,,05-10-2025 15:17:56,05-10-2025 15:17:57,1.556s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 140.0.7339.215,,,05-10-2025 15:17:57,05-10-2025 15:17:58,0.678s,PASSED
+maximizeWindow(),Chrome 140.0.7339.215,,,05-10-2025 15:17:58,05-10-2025 15:17:58,0.339s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login-credentials""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:17:58,05-10-2025 15:18:00,1.596s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/username_field""), username)",Chrome 140.0.7339.215,,,05-10-2025 15:18:00,05-10-2025 15:18:00,0.650s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/password_field""), password)",Chrome 140.0.7339.215,,,05-10-2025 15:18:00,05-10-2025 15:18:01,0.546s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login_btn""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:01,05-10-2025 15:18:01,0.232s,PASSED
+"click(findTestObject(""Saucedemo-Shop/login_btn""))",Chrome 140.0.7339.215,,,05-10-2025 15:18:01,05-10-2025 15:18:01,0.325s,PASSED
+"if (testType == ""P"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:01,05-10-2025 15:18:02,0.471s,PASSED
+closeBrowser(),Chrome 140.0.7339.215,,,05-10-2025 15:18:02,05-10-2025 15:18:02,0.102s,PASSED
+,,,,,,,
+Test Cases/Task-Saucelab-Login,Chrome 140.0.7339.215,,,05-10-2025 15:18:02,05-10-2025 15:18:08,5.510s,PASSED
+"DATA BINDING - {""password"":""secret_sauce"",""expected"":"""",""testType"":""P"",""username"":""standard_user""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 140.0.7339.215,,,05-10-2025 15:18:02,05-10-2025 15:18:02,0.000s,PASSED
+"openBrowser("""")",Chrome 140.0.7339.215,,,05-10-2025 15:18:02,05-10-2025 15:18:03,0.742s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:03,05-10-2025 15:18:04,0.800s,PASSED
+maximizeWindow(),Chrome 140.0.7339.215,,,05-10-2025 15:18:04,05-10-2025 15:18:04,0.339s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login-credentials""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:04,05-10-2025 15:18:05,1.346s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/username_field""), username)",Chrome 140.0.7339.215,,,05-10-2025 15:18:05,05-10-2025 15:18:06,0.639s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/password_field""), password)",Chrome 140.0.7339.215,,,05-10-2025 15:18:06,05-10-2025 15:18:06,0.539s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login_btn""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:06,05-10-2025 15:18:07,0.230s,PASSED
+"click(findTestObject(""Saucedemo-Shop/login_btn""))",Chrome 140.0.7339.215,,,05-10-2025 15:18:07,05-10-2025 15:18:07,0.316s,PASSED
+"if (testType == ""P"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:07,05-10-2025 15:18:07,0.448s,PASSED
+closeBrowser(),Chrome 140.0.7339.215,,,05-10-2025 15:18:07,05-10-2025 15:18:08,0.095s,PASSED
+,,,,,,,
+Test Cases/Task-Saucelab-Login,Chrome 140.0.7339.215,,,05-10-2025 15:18:08,05-10-2025 15:18:23,15.146s,PASSED
+"DATA BINDING - {""password"":""secret_sauce"",""expected"":""Epic sadface: Username and password do not match any user in this service"",""testType"":""F"",""username"":""wrong_user""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 140.0.7339.215,,,05-10-2025 15:18:08,05-10-2025 15:18:08,0.001s,PASSED
+"openBrowser("""")",Chrome 140.0.7339.215,,,05-10-2025 15:18:08,05-10-2025 15:18:08,0.759s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:08,05-10-2025 15:18:09,0.384s,PASSED
+maximizeWindow(),Chrome 140.0.7339.215,,,05-10-2025 15:18:09,05-10-2025 15:18:09,0.327s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login-credentials""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:09,05-10-2025 15:18:11,1.552s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/username_field""), username)",Chrome 140.0.7339.215,,,05-10-2025 15:18:11,05-10-2025 15:18:11,0.637s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/password_field""), password)",Chrome 140.0.7339.215,,,05-10-2025 15:18:11,05-10-2025 15:18:12,0.549s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login_btn""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:12,05-10-2025 15:18:12,0.228s,PASSED
+"click(findTestObject(""Saucedemo-Shop/login_btn""))",Chrome 140.0.7339.215,,,05-10-2025 15:18:12,05-10-2025 15:18:12,0.301s,PASSED
+"if (testType == ""P"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:12,05-10-2025 15:18:12,0.001s,PASSED
+else,Chrome 140.0.7339.215,,,05-10-2025 15:18:12,05-10-2025 15:18:23,10.292s,PASSED
+closeBrowser(),Chrome 140.0.7339.215,,,05-10-2025 15:18:23,05-10-2025 15:18:23,0.101s,PASSED
+,,,,,,,
+Test Cases/Task-Saucelab-Login,Chrome 140.0.7339.215,,,05-10-2025 15:18:23,05-10-2025 15:18:38,14.981s,PASSED
+"DATA BINDING - {""password"":""wrong_password"",""expected"":""Epic sadface: Username and password do not match any user in this service"",""testType"":""F"",""username"":""standard_user""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 140.0.7339.215,,,05-10-2025 15:18:23,05-10-2025 15:18:23,0.001s,PASSED
+"openBrowser("""")",Chrome 140.0.7339.215,,,05-10-2025 15:18:23,05-10-2025 15:18:23,0.690s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:23,05-10-2025 15:18:24,0.397s,PASSED
+maximizeWindow(),Chrome 140.0.7339.215,,,05-10-2025 15:18:24,05-10-2025 15:18:24,0.327s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login-credentials""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:24,05-10-2025 15:18:26,1.564s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/username_field""), username)",Chrome 140.0.7339.215,,,05-10-2025 15:18:26,05-10-2025 15:18:26,0.607s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/password_field""), password)",Chrome 140.0.7339.215,,,05-10-2025 15:18:26,05-10-2025 15:18:27,0.522s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login_btn""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:27,05-10-2025 15:18:27,0.228s,PASSED
+"click(findTestObject(""Saucedemo-Shop/login_btn""))",Chrome 140.0.7339.215,,,05-10-2025 15:18:27,05-10-2025 15:18:27,0.296s,PASSED
+"if (testType == ""P"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:27,05-10-2025 15:18:27,0.000s,PASSED
+else,Chrome 140.0.7339.215,,,05-10-2025 15:18:27,05-10-2025 15:18:38,10.247s,PASSED
+closeBrowser(),Chrome 140.0.7339.215,,,05-10-2025 15:18:38,05-10-2025 15:18:38,0.094s,PASSED
+,,,,,,,
+Test Cases/Task-Saucelab-Login,Chrome 140.0.7339.215,,,05-10-2025 15:18:38,05-10-2025 15:18:43,5.488s,PASSED
+"DATA BINDING - {""password"":""secret_sauce"",""expected"":"""",""testType"":""P"",""username"":""problem_user""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 140.0.7339.215,,,05-10-2025 15:18:38,05-10-2025 15:18:38,0.001s,PASSED
+"openBrowser("""")",Chrome 140.0.7339.215,,,05-10-2025 15:18:38,05-10-2025 15:18:39,0.822s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:39,05-10-2025 15:18:39,0.628s,PASSED
+maximizeWindow(),Chrome 140.0.7339.215,,,05-10-2025 15:18:39,05-10-2025 15:18:40,0.325s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login-credentials""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:40,05-10-2025 15:18:41,1.450s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/username_field""), username)",Chrome 140.0.7339.215,,,05-10-2025 15:18:41,05-10-2025 15:18:42,0.622s,PASSED
+"setText(findTestObject(""Saucedemo-Shop/password_field""), password)",Chrome 140.0.7339.215,,,05-10-2025 15:18:42,05-10-2025 15:18:42,0.539s,PASSED
+"verifyElementPresent(findTestObject(""Saucedemo-Shop/login_btn""), 2)",Chrome 140.0.7339.215,,,05-10-2025 15:18:42,05-10-2025 15:18:42,0.231s,PASSED
+"click(findTestObject(""Saucedemo-Shop/login_btn""))",Chrome 140.0.7339.215,,,05-10-2025 15:18:42,05-10-2025 15:18:43,0.320s,PASSED
+"if (testType == ""P"")",Chrome 140.0.7339.215,,,05-10-2025 15:18:43,05-10-2025 15:18:43,0.444s,PASSED
+closeBrowser(),Chrome 140.0.7339.215,,,05-10-2025 15:18:43,05-10-2025 15:18:43,0.098s,PASSED

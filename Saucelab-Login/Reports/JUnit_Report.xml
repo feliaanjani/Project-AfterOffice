@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login-saucelab" time="47.949" tests="5" failures="0" errors="0">
+   <testsuite name="login-saucelab" tests="5" failures="0" errors="0" time="47.949" skipped="0" timestamp="2025-10-05T08:17:55.762Z" hostname="feliaanjani - localhost" id="Test Suites/Task/login-saucelab">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/feliaanjani/Katalon Studio/webAutomation/Reports/20251005_151754/Task/login-saucelab/20251005_151754"/>
+         <property name="logFiles" value="/Users/feliaanjani/Katalon Studio/webAutomation/Reports/20251005_151754/Task/login-saucelab/20251005_151754/execution0.log, /Users/feliaanjani/Katalon Studio/webAutomation/Reports/20251005_151754/Task/login-saucelab/20251005_151754/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="feliaanjani - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.3.1.0"/>
+         <property name="browser" value="Chrome 140.0.7339.215"/>
+         <property name="userFullName" value="anjanifeliaa03"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="92b27306e2ae35c514b0c922ae069547"/>
+         <property name="projectName" value="webAutomation"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Task-Saucelab-Login" time="6.582" classname="Test Cases/Task-Saucelab-Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"secret_sauce","expected":"","testType":"P","username":"visual_user"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:17:55 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Login: Test Cases/Task-Saucelab-Login
+
+05-10-2025T15:17:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:17:55 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:17:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:17:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-10-2025T15:17:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:17:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:17:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:17:58 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:17:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:17:58 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:17:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:00 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), username): Text 'visual_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:00 - [MESSAGE][PASSED] - Text 'visual_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:00 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), password): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:01 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2): Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:01 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:01 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:01 - [TEST_STEP][PASSED] - if (testType == "P"): Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/hamburger_menu_btn"), 5): Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:02 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:18:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Login" time="5.51" classname="Test Cases/Task-Saucelab-Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"secret_sauce","expected":"","testType":"P","username":"standard_user"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:18:02 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Login: Test Cases/Task-Saucelab-Login
+
+05-10-2025T15:18:02 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:18:02 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:18:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:18:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-10-2025T15:18:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:18:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:18:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:18:04 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:18:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:18:04 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:18:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:05 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), username): Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:06 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), password): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:06 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2): Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:07 - [TEST_STEP][PASSED] - if (testType == "P"): Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/hamburger_menu_btn"), 5): Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:18:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Login" time="15.146" classname="Test Cases/Task-Saucelab-Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"secret_sauce","expected":"Epic sadface: Username and password do not match any user in this service","testType":"F","username":"wrong_user"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:18:08 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Login: Test Cases/Task-Saucelab-Login
+
+05-10-2025T15:18:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:18:08 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:18:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:18:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-10-2025T15:18:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:18:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:18:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:18:09 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:18:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:18:09 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:18:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:11 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), username): Text 'wrong_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:11 - [MESSAGE][PASSED] - Text 'wrong_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:11 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), password): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:12 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2): Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:12 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:12 - [TEST_STEP][PASSED] - if (testType == "P"): null
+
+05-10-2025T15:18:12 - [TEST_STEP][PASSED] - else: Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+05-10-2025T15:18:12 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false, STOP_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+05-10-2025T15:18:23 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+05-10-2025T15:18:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:18:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Login" time="14.981" classname="Test Cases/Task-Saucelab-Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"wrong_password","expected":"Epic sadface: Username and password do not match any user in this service","testType":"F","username":"standard_user"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:18:23 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Login: Test Cases/Task-Saucelab-Login
+
+05-10-2025T15:18:23 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:18:23 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:18:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:18:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-10-2025T15:18:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:18:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:18:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:18:24 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:18:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:18:24 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:18:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:26 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:26 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), username): Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:26 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:26 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), password): Text 'wrong_password' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:27 - [MESSAGE][PASSED] - Text 'wrong_password' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2): Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:27 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:27 - [TEST_STEP][PASSED] - if (testType == "P"): null
+
+05-10-2025T15:18:27 - [TEST_STEP][PASSED] - else: Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+05-10-2025T15:18:27 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false, STOP_ON_FAILURE): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+05-10-2025T15:18:38 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+05-10-2025T15:18:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:18:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task-Saucelab-Login" time="5.488" classname="Test Cases/Task-Saucelab-Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"secret_sauce","expected":"","testType":"P","username":"problem_user"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-10-2025T15:18:38 - [TEST_CASE][PASSED] - Test Cases/Task-Saucelab-Login: Test Cases/Task-Saucelab-Login
+
+05-10-2025T15:18:38 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+05-10-2025T15:18:38 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+05-10-2025T15:18:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-10-2025T15:18:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-10-2025T15:18:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-10-2025T15:18:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-10-2025T15:18:39 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:18:39 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+05-10-2025T15:18:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+05-10-2025T15:18:40 - [MESSAGE][PASSED] - Current window maximized
+
+05-10-2025T15:18:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2): Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:41 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login-credentials' is present
+
+05-10-2025T15:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/username_field"), username): Text 'problem_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:42 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/Saucedemo-Shop/username_field'
+
+05-10-2025T15:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("Saucedemo-Shop/password_field"), password): Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:42 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Saucedemo-Shop/password_field'
+
+05-10-2025T15:18:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2): Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:42 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/login_btn' is present
+
+05-10-2025T15:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Saucedemo-Shop/login_btn")): Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Saucedemo-Shop/login_btn' is clicked on
+
+05-10-2025T15:18:43 - [TEST_STEP][PASSED] - if (testType == "P"): Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Saucedemo-Shop/hamburger_menu_btn"), 5): Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:43 - [MESSAGE][PASSED] - Object 'Object Repository/Saucedemo-Shop/hamburger_menu_btn' is present
+
+05-10-2025T15:18:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-10-2025T15:18:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-10-2025T15:17:55 - [TEST_SUITE][PASSED] - login-saucelab: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

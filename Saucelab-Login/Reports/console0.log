@@ -1,0 +1,147 @@
+2025-10-05 15:17:55.719 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Task/login-saucelab
+2025-10-05 15:17:55.770 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = anjanifeliaa03
+2025-10-05 15:17:55.771 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = webAutomation
+2025-10-05 15:17:55.771 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = feliaanjani - localhost
+2025-10-05 15:17:55.771 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-10-05 15:17:55.771 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-10-05 15:17:55.771 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+2025-10-05 15:17:55.964 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:17:55.964 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Login
+2025-10-05 15:17:55.986 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = P
+2025-10-05 15:17:55.986 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = visual_user
+2025-10-05 15:17:55.986 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = secret_sauce
+2025-10-05 15:17:55.987 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = 
+2025-10-05 15:17:56.051 DEBUG testcase.Task-Saucelab-Login             - 1: openBrowser("")
+2025-10-05 15:17:56.128 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:17:56.147 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:17:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:17:57.584 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 77b5368af2ab5ec7dc94d38c57cdad21
+2025-10-05 15:17:57.585 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:17:57.585 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:17:57.585 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:17:57.588 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:17:57.607 DEBUG testcase.Task-Saucelab-Login             - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:17:58.285 DEBUG testcase.Task-Saucelab-Login             - 3: maximizeWindow()
+2025-10-05 15:17:58.624 DEBUG testcase.Task-Saucelab-Login             - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2)
+2025-10-05 15:18:00.220 DEBUG testcase.Task-Saucelab-Login             - 5: setText(findTestObject("Saucedemo-Shop/username_field"), username)
+2025-10-05 15:18:00.870 DEBUG testcase.Task-Saucelab-Login             - 6: setText(findTestObject("Saucedemo-Shop/password_field"), password)
+2025-10-05 15:18:01.416 DEBUG testcase.Task-Saucelab-Login             - 7: verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2)
+2025-10-05 15:18:01.648 DEBUG testcase.Task-Saucelab-Login             - 8: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:18:01.973 DEBUG testcase.Task-Saucelab-Login             - 9: if (testType == "P")
+2025-10-05 15:18:01.976 DEBUG testcase.Task-Saucelab-Login             - 1: verifyElementPresent(findTestObject("Saucedemo-Shop/hamburger_menu_btn"), 5)
+2025-10-05 15:18:02.444 DEBUG testcase.Task-Saucelab-Login             - 11: closeBrowser()
+2025-10-05 15:18:02.547 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:02.554 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:18:02.554 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:02.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = P
+2025-10-05 15:18:02.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = standard_user
+2025-10-05 15:18:02.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = secret_sauce
+2025-10-05 15:18:02.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = 
+2025-10-05 15:18:02.562 DEBUG testcase.Task-Saucelab-Login             - 1: openBrowser("")
+2025-10-05 15:18:02.563 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:18:02.564 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:18:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:18:03.294 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 79b3bbed7bf8ac164200f93ee295ab8f
+2025-10-05 15:18:03.294 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:18:03.294 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:18:03.295 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:18:03.295 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:18:03.304 DEBUG testcase.Task-Saucelab-Login             - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:18:04.104 DEBUG testcase.Task-Saucelab-Login             - 3: maximizeWindow()
+2025-10-05 15:18:04.447 DEBUG testcase.Task-Saucelab-Login             - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2)
+2025-10-05 15:18:05.795 DEBUG testcase.Task-Saucelab-Login             - 5: setText(findTestObject("Saucedemo-Shop/username_field"), username)
+2025-10-05 15:18:06.435 DEBUG testcase.Task-Saucelab-Login             - 6: setText(findTestObject("Saucedemo-Shop/password_field"), password)
+2025-10-05 15:18:06.975 DEBUG testcase.Task-Saucelab-Login             - 7: verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2)
+2025-10-05 15:18:07.205 DEBUG testcase.Task-Saucelab-Login             - 8: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:18:07.521 DEBUG testcase.Task-Saucelab-Login             - 9: if (testType == "P")
+2025-10-05 15:18:07.521 DEBUG testcase.Task-Saucelab-Login             - 1: verifyElementPresent(findTestObject("Saucedemo-Shop/hamburger_menu_btn"), 5)
+2025-10-05 15:18:07.968 DEBUG testcase.Task-Saucelab-Login             - 11: closeBrowser()
+2025-10-05 15:18:08.064 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:08.081 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:18:08.081 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:08.086 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = F
+2025-10-05 15:18:08.086 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = wrong_user
+2025-10-05 15:18:08.086 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = secret_sauce
+2025-10-05 15:18:08.086 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = Epic sadface: Username and password do not match any user in this service
+2025-10-05 15:18:08.088 DEBUG testcase.Task-Saucelab-Login             - 1: openBrowser("")
+2025-10-05 15:18:08.089 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:18:08.090 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:18:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:18:08.839 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7c7cc79b9d8616243c4c74ac76b3860d
+2025-10-05 15:18:08.839 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:18:08.839 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:18:08.839 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:18:08.840 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:18:08.847 DEBUG testcase.Task-Saucelab-Login             - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:18:09.231 DEBUG testcase.Task-Saucelab-Login             - 3: maximizeWindow()
+2025-10-05 15:18:09.561 DEBUG testcase.Task-Saucelab-Login             - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2)
+2025-10-05 15:18:11.117 DEBUG testcase.Task-Saucelab-Login             - 5: setText(findTestObject("Saucedemo-Shop/username_field"), username)
+2025-10-05 15:18:11.754 DEBUG testcase.Task-Saucelab-Login             - 6: setText(findTestObject("Saucedemo-Shop/password_field"), password)
+2025-10-05 15:18:12.303 DEBUG testcase.Task-Saucelab-Login             - 7: verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2)
+2025-10-05 15:18:12.531 DEBUG testcase.Task-Saucelab-Login             - 8: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:18:12.832 DEBUG testcase.Task-Saucelab-Login             - 9: if (testType == "P")
+2025-10-05 15:18:12.834 DEBUG testcase.Task-Saucelab-Login             - 10: else
+2025-10-05 15:18:12.834 DEBUG testcase.Task-Saucelab-Login             - 1: verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false, STOP_ON_FAILURE)
+2025-10-05 15:18:23.126 DEBUG testcase.Task-Saucelab-Login             - 11: closeBrowser()
+2025-10-05 15:18:23.227 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:23.234 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:18:23.234 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:23.239 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = F
+2025-10-05 15:18:23.240 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = standard_user
+2025-10-05 15:18:23.240 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = wrong_password
+2025-10-05 15:18:23.240 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = Epic sadface: Username and password do not match any user in this service
+2025-10-05 15:18:23.241 DEBUG testcase.Task-Saucelab-Login             - 1: openBrowser("")
+2025-10-05 15:18:23.242 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:18:23.243 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:18:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:18:23.921 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1b05a8ad4f235b47bcd49fdb95968467
+2025-10-05 15:18:23.921 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:18:23.922 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:18:23.922 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:18:23.922 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:18:23.931 DEBUG testcase.Task-Saucelab-Login             - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:18:24.328 DEBUG testcase.Task-Saucelab-Login             - 3: maximizeWindow()
+2025-10-05 15:18:24.654 DEBUG testcase.Task-Saucelab-Login             - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2)
+2025-10-05 15:18:26.218 DEBUG testcase.Task-Saucelab-Login             - 5: setText(findTestObject("Saucedemo-Shop/username_field"), username)
+2025-10-05 15:18:26.826 DEBUG testcase.Task-Saucelab-Login             - 6: setText(findTestObject("Saucedemo-Shop/password_field"), password)
+2025-10-05 15:18:27.348 DEBUG testcase.Task-Saucelab-Login             - 7: verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2)
+2025-10-05 15:18:27.576 DEBUG testcase.Task-Saucelab-Login             - 8: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:18:27.873 DEBUG testcase.Task-Saucelab-Login             - 9: if (testType == "P")
+2025-10-05 15:18:27.873 DEBUG testcase.Task-Saucelab-Login             - 10: else
+2025-10-05 15:18:27.873 DEBUG testcase.Task-Saucelab-Login             - 1: verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false, STOP_ON_FAILURE)
+2025-10-05 15:18:38.120 DEBUG testcase.Task-Saucelab-Login             - 11: closeBrowser()
+2025-10-05 15:18:38.215 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:38.223 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-05 15:18:38.223 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:38.228 INFO  c.k.katalon.core.main.TestCaseExecutor   - testType = P
+2025-10-05 15:18:38.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = problem_user
+2025-10-05 15:18:38.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = secret_sauce
+2025-10-05 15:18:38.229 INFO  c.k.katalon.core.main.TestCaseExecutor   - expected = 
+2025-10-05 15:18:38.230 DEBUG testcase.Task-Saucelab-Login             - 1: openBrowser("")
+2025-10-05 15:18:38.232 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-05 15:18:38.232 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 05, 2025 3:18:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+2025-10-05 15:18:39.027 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 92b27306e2ae35c514b0c922ae069547
+2025-10-05 15:18:39.029 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.215
+2025-10-05 15:18:39.029 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-05 15:18:39.030 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-05 15:18:39.030 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-05 15:18:39.052 DEBUG testcase.Task-Saucelab-Login             - 2: navigateToUrl("https://www.saucedemo.com/")
+2025-10-05 15:18:39.680 DEBUG testcase.Task-Saucelab-Login             - 3: maximizeWindow()
+2025-10-05 15:18:40.005 DEBUG testcase.Task-Saucelab-Login             - 4: verifyElementPresent(findTestObject("Saucedemo-Shop/login-credentials"), 2)
+2025-10-05 15:18:41.455 DEBUG testcase.Task-Saucelab-Login             - 5: setText(findTestObject("Saucedemo-Shop/username_field"), username)
+2025-10-05 15:18:42.078 DEBUG testcase.Task-Saucelab-Login             - 6: setText(findTestObject("Saucedemo-Shop/password_field"), password)
+2025-10-05 15:18:42.617 DEBUG testcase.Task-Saucelab-Login             - 7: verifyElementPresent(findTestObject("Saucedemo-Shop/login_btn"), 2)
+2025-10-05 15:18:42.847 DEBUG testcase.Task-Saucelab-Login             - 8: click(findTestObject("Saucedemo-Shop/login_btn"))
+2025-10-05 15:18:43.168 DEBUG testcase.Task-Saucelab-Login             - 9: if (testType == "P")
+2025-10-05 15:18:43.169 DEBUG testcase.Task-Saucelab-Login             - 1: verifyElementPresent(findTestObject("Saucedemo-Shop/hamburger_menu_btn"), 5)
+2025-10-05 15:18:43.612 DEBUG testcase.Task-Saucelab-Login             - 11: closeBrowser()
+2025-10-05 15:18:43.711 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Task-Saucelab-Login
+2025-10-05 15:18:43.728 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-05 15:18:43.728 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Task/login-saucelab
+2025-10-05 15:18:43.728 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
